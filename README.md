@@ -1,5 +1,9 @@
 # Analysis of Helicobacter winghamensis genomes
 
+## Summary
+
+- ABRicate results: annotation/abricate/README.html 
+
 ## ABRicate
 
 Run ABRicate with all reference databases. Use thresholds `minid = 30%` and `mincov = 70%`
