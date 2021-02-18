@@ -1,0 +1,187 @@
+Filter SPAdes repeats Results Summary
+======================================
+
+Paramaters used:
+Length cutoff for calcularing average cutoff: 5000
+Coverage cutoff ratio: 0.33
+Repeat cutoff ratio: 1.75
+Length cutoff: 1000
+
+Calculations:
+Average coverage: 587.552743576923
+Coverage cutoff: 193.892405380385
+Repeat cutoff: 1028.21730125962
+
+File headers:
+Filtered sequences (with repeats):
+>NODE_1_length_151703_cov_474.653006
+>NODE_2_length_137968_cov_576.970104
+>NODE_3_length_136011_cov_498.075392
+>NODE_4_length_117000_cov_504.463329
+>NODE_5_length_114472_cov_529.256020
+>NODE_6_length_111736_cov_569.514501
+>NODE_7_length_92358_cov_514.744645
+>NODE_8_length_88033_cov_522.948351
+>NODE_9_length_79298_cov_552.505243
+>NODE_10_length_63203_cov_585.717790
+>NODE_11_length_61751_cov_517.354593
+>NODE_12_length_60577_cov_572.620749
+>NODE_13_length_59756_cov_574.300347
+>NODE_14_length_51456_cov_480.819984
+>NODE_15_length_40693_cov_599.505980
+>NODE_16_length_35304_cov_500.522313
+>NODE_17_length_28480_cov_592.902832
+>NODE_18_length_28226_cov_559.310781
+>NODE_19_length_25111_cov_543.740980
+>NODE_20_length_20839_cov_521.954532
+>NODE_21_length_20823_cov_476.785150
+>NODE_22_length_16039_cov_490.540791
+>NODE_23_length_13656_cov_525.726638
+>NODE_24_length_12535_cov_530.445673
+>NODE_25_length_11189_cov_413.892491
+>NODE_26_length_6401_cov_2047.099118(3 copies)
+>NODE_27_length_4801_cov_534.065740
+>NODE_28_length_4095_cov_414.274257
+>NODE_29_length_2647_cov_957.032022
+>NODE_30_length_1950_cov_1024.387863
+>NODE_31_length_1618_cov_475.478567
+>NODE_32_length_1474_cov_539.695560
+>NODE_33_length_1451_cov_643.997135
+>NODE_34_length_1377_cov_332.933434
+>NODE_35_length_1309_cov_2463.629187(4 copies)
+>NODE_36_length_1248_cov_1584.452640(2 copies)
+
+Filtered sequences (no repeats):
+>NODE_1_length_151703_cov_474.653006
+>NODE_2_length_137968_cov_576.970104
+>NODE_3_length_136011_cov_498.075392
+>NODE_4_length_117000_cov_504.463329
+>NODE_5_length_114472_cov_529.256020
+>NODE_6_length_111736_cov_569.514501
+>NODE_7_length_92358_cov_514.744645
+>NODE_8_length_88033_cov_522.948351
+>NODE_9_length_79298_cov_552.505243
+>NODE_10_length_63203_cov_585.717790
+>NODE_11_length_61751_cov_517.354593
+>NODE_12_length_60577_cov_572.620749
+>NODE_13_length_59756_cov_574.300347
+>NODE_14_length_51456_cov_480.819984
+>NODE_15_length_40693_cov_599.505980
+>NODE_16_length_35304_cov_500.522313
+>NODE_17_length_28480_cov_592.902832
+>NODE_18_length_28226_cov_559.310781
+>NODE_19_length_25111_cov_543.740980
+>NODE_20_length_20839_cov_521.954532
+>NODE_21_length_20823_cov_476.785150
+>NODE_22_length_16039_cov_490.540791
+>NODE_23_length_13656_cov_525.726638
+>NODE_24_length_12535_cov_530.445673
+>NODE_25_length_11189_cov_413.892491
+>NODE_27_length_4801_cov_534.065740
+>NODE_28_length_4095_cov_414.274257
+>NODE_29_length_2647_cov_957.032022
+>NODE_30_length_1950_cov_1024.387863
+>NODE_31_length_1618_cov_475.478567
+>NODE_32_length_1474_cov_539.695560
+>NODE_33_length_1451_cov_643.997135
+>NODE_34_length_1377_cov_332.933434
+
+Repeat sequences:
+>NODE_26_length_6401_cov_2047.099118(3 copies)
+>NODE_35_length_1309_cov_2463.629187(4 copies)
+>NODE_36_length_1248_cov_1584.452640(2 copies)
+
+Discarded sequences:
+>NODE_37_length_1174_cov_3.117069
+>NODE_38_length_903_cov_1932.992925
+>NODE_39_length_798_cov_571.658143
+>NODE_40_length_797_cov_328.580863
+>NODE_41_length_743_cov_2.590116
+>NODE_42_length_715_cov_3.792424
+>NODE_43_length_677_cov_2.876206
+>NODE_44_length_676_cov_2.193237
+>NODE_45_length_658_cov_2.315091
+>NODE_46_length_656_cov_1960.797005
+>NODE_47_length_648_cov_565.101180
+>NODE_48_length_614_cov_2.227191
+>NODE_49_length_599_cov_2.218750
+>NODE_50_length_597_cov_4.003690
+>NODE_51_length_578_cov_2.543021
+>NODE_52_length_555_cov_2.380000
+>NODE_53_length_549_cov_2.912955
+>NODE_54_length_435_cov_418.586842
+>NODE_55_length_356_cov_42.976744
+>NODE_56_length_325_cov_679.614815
+>NODE_57_length_276_cov_960.307692
+>NODE_58_length_266_cov_487.289100
+>NODE_59_length_214_cov_297.566038
+>NODE_60_length_207_cov_391.921053
+>NODE_61_length_192_cov_1214.153285
+>NODE_62_length_186_cov_855.473282
+>NODE_63_length_180_cov_434.352000
+>NODE_64_length_168_cov_33.460177
+>NODE_65_length_161_cov_138.933962
+>NODE_66_length_156_cov_385.485149
+>NODE_67_length_149_cov_3.297872
+>NODE_68_length_139_cov_60.285714
+>NODE_69_length_137_cov_50.487805
+>NODE_70_length_135_cov_524.762500
+>NODE_71_length_134_cov_91.240506
+>NODE_72_length_125_cov_577.457143
+>NODE_73_length_114_cov_82.474576
+>NODE_74_length_114_cov_47.271186
+>NODE_75_length_111_cov_529.196429
+>NODE_76_length_111_cov_90.910714
+>NODE_77_length_111_cov_29.500000
+>NODE_78_length_110_cov_64.800000
+>NODE_79_length_107_cov_552.307692
+>NODE_80_length_102_cov_22.276596
+>NODE_81_length_100_cov_72.466667
+>NODE_82_length_100_cov_67.888889
+>NODE_83_length_100_cov_33.911111
+>NODE_84_length_99_cov_44.886364
+>NODE_85_length_99_cov_30.681818
+>NODE_86_length_99_cov_28.363636
+>NODE_87_length_99_cov_26.363636
+>NODE_88_length_99_cov_20.863636
+>NODE_89_length_98_cov_28.906977
+>NODE_90_length_98_cov_25.209302
+>NODE_91_length_97_cov_504.809524
+>NODE_92_length_96_cov_25.292683
+>NODE_93_length_86_cov_141.774194
+>NODE_94_length_84_cov_27.448276
+>NODE_95_length_81_cov_68.500000
+>NODE_96_length_80_cov_202.360000
+>NODE_97_length_80_cov_66.160000
+>NODE_98_length_80_cov_52.160000
+>NODE_99_length_80_cov_37.880000
+>NODE_100_length_77_cov_29.954545
+>NODE_101_length_76_cov_321.190476
+>NODE_102_length_75_cov_138.550000
+>NODE_103_length_74_cov_29.684211
+>NODE_104_length_73_cov_204.500000
+>NODE_105_length_72_cov_307.000000
+>NODE_106_length_71_cov_151.500000
+>NODE_107_length_71_cov_80.562500
+>NODE_108_length_70_cov_84.066667
+>NODE_109_length_68_cov_88.923077
+>NODE_110_length_66_cov_124.000000
+>NODE_111_length_64_cov_63.555556
+>NODE_112_length_63_cov_491.250000
+>NODE_113_length_59_cov_149.000000
+>NODE_114_length_59_cov_97.250000
+>NODE_115_length_59_cov_87.750000
+>NODE_116_length_59_cov_23.000000
+>NODE_117_length_59_cov_21.000000
+>NODE_118_length_59_cov_2.250000
+>NODE_119_length_58_cov_92.666667
+>NODE_120_length_58_cov_74.666667
+>NODE_121_length_57_cov_652.500000
+>NODE_122_length_56_cov_2360.000000
+>NODE_123_length_56_cov_297.000000
+>NODE_124_length_56_cov_140.000000
+>NODE_125_length_56_cov_119.000000
+>NODE_126_length_56_cov_92.000000
+>NODE_127_length_56_cov_91.000000
+>NODE_128_length_56_cov_73.000000
+

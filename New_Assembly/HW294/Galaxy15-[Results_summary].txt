@@ -1,0 +1,172 @@
+Filter SPAdes repeats Results Summary
+======================================
+
+Paramaters used:
+Length cutoff for calcularing average cutoff: 5000
+Coverage cutoff ratio: 0.33
+Repeat cutoff ratio: 1.75
+Length cutoff: 1000
+
+Calculations:
+Average coverage: 742.172122148148
+Coverage cutoff: 244.916800308889
+Repeat cutoff: 1298.80121375926
+
+File headers:
+Filtered sequences (with repeats):
+>NODE_1_length_143229_cov_678.516763
+>NODE_2_length_141544_cov_715.413283
+>NODE_3_length_140623_cov_770.250434
+>NODE_4_length_136010_cov_628.548306
+>NODE_5_length_125209_cov_530.769724
+>NODE_6_length_114471_cov_679.118838
+>NODE_7_length_92362_cov_676.988506
+>NODE_8_length_91380_cov_742.239496
+>NODE_9_length_73287_cov_726.760583
+>NODE_10_length_64020_cov_688.832580
+>NODE_11_length_62053_cov_721.541727
+>NODE_12_length_61720_cov_685.220790
+>NODE_13_length_51429_cov_612.296415
+>NODE_14_length_44173_cov_721.278934
+>NODE_15_length_44081_cov_613.510994
+>NODE_16_length_42560_cov_784.630585
+>NODE_17_length_29692_cov_677.095590
+>NODE_18_length_29462_cov_576.640698
+>NODE_19_length_28633_cov_783.717930
+>NODE_20_length_25047_cov_715.449624
+>NODE_21_length_24304_cov_628.511444
+>NODE_22_length_20823_cov_603.461383
+>NODE_23_length_16404_cov_675.991681
+>NODE_24_length_13569_cov_641.741749
+>NODE_25_length_11122_cov_550.882985
+>NODE_26_length_11021_cov_644.397775
+>NODE_27_length_6401_cov_2564.838481(3 copies)
+>NODE_28_length_2047_cov_2170.837851(2 copies)
+>NODE_29_length_1714_cov_777.678722
+>NODE_30_length_1668_cov_643.495970
+>NODE_31_length_1618_cov_726.503519
+>NODE_32_length_1457_cov_472.641940
+>NODE_33_length_1451_cov_842.254298
+>NODE_34_length_1249_cov_3333.842546(4 copies)
+>NODE_35_length_1000_cov_678.876190
+
+Filtered sequences (no repeats):
+>NODE_1_length_143229_cov_678.516763
+>NODE_2_length_141544_cov_715.413283
+>NODE_3_length_140623_cov_770.250434
+>NODE_4_length_136010_cov_628.548306
+>NODE_5_length_125209_cov_530.769724
+>NODE_6_length_114471_cov_679.118838
+>NODE_7_length_92362_cov_676.988506
+>NODE_8_length_91380_cov_742.239496
+>NODE_9_length_73287_cov_726.760583
+>NODE_10_length_64020_cov_688.832580
+>NODE_11_length_62053_cov_721.541727
+>NODE_12_length_61720_cov_685.220790
+>NODE_13_length_51429_cov_612.296415
+>NODE_14_length_44173_cov_721.278934
+>NODE_15_length_44081_cov_613.510994
+>NODE_16_length_42560_cov_784.630585
+>NODE_17_length_29692_cov_677.095590
+>NODE_18_length_29462_cov_576.640698
+>NODE_19_length_28633_cov_783.717930
+>NODE_20_length_25047_cov_715.449624
+>NODE_21_length_24304_cov_628.511444
+>NODE_22_length_20823_cov_603.461383
+>NODE_23_length_16404_cov_675.991681
+>NODE_24_length_13569_cov_641.741749
+>NODE_25_length_11122_cov_550.882985
+>NODE_26_length_11021_cov_644.397775
+>NODE_29_length_1714_cov_777.678722
+>NODE_30_length_1668_cov_643.495970
+>NODE_31_length_1618_cov_726.503519
+>NODE_32_length_1457_cov_472.641940
+>NODE_33_length_1451_cov_842.254298
+>NODE_35_length_1000_cov_678.876190
+
+Repeat sequences:
+>NODE_27_length_6401_cov_2564.838481(3 copies)
+>NODE_28_length_2047_cov_2170.837851(2 copies)
+>NODE_34_length_1249_cov_3333.842546(4 copies)
+
+Discarded sequences:
+>NODE_36_length_961_cov_6.229581
+>NODE_37_length_936_cov_2340.044268
+>NODE_38_length_781_cov_489.198347
+>NODE_39_length_723_cov_3.103293
+>NODE_40_length_667_cov_3.364379
+>NODE_41_length_656_cov_873.562396
+>NODE_42_length_647_cov_3.070946
+>NODE_43_length_611_cov_3.723022
+>NODE_44_length_503_cov_1158.200893
+>NODE_45_length_492_cov_1029.041190
+>NODE_46_length_282_cov_752.911894
+>NODE_47_length_280_cov_1316.200000
+>NODE_48_length_270_cov_924.181395
+>NODE_49_length_270_cov_762.809302
+>NODE_50_length_268_cov_366.474178
+>NODE_51_length_253_cov_1148.126263
+>NODE_52_length_175_cov_3294.783333
+>NODE_53_length_175_cov_1052.116667
+>NODE_54_length_174_cov_623.378151
+>NODE_55_length_161_cov_54.773585
+>NODE_56_length_135_cov_661.787500
+>NODE_57_length_134_cov_93.329114
+>NODE_58_length_120_cov_36.215385
+>NODE_59_length_117_cov_291.774194
+>NODE_60_length_111_cov_1280.553571
+>NODE_61_length_111_cov_435.303571
+>NODE_62_length_111_cov_253.142857
+>NODE_63_length_111_cov_36.964286
+>NODE_64_length_109_cov_449.611111
+>NODE_65_length_109_cov_7.462963
+>NODE_66_length_108_cov_4.509434
+>NODE_67_length_100_cov_79.555556
+>NODE_68_length_100_cov_67.200000
+>NODE_69_length_99_cov_42.022727
+>NODE_70_length_99_cov_22.431818
+>NODE_71_length_99_cov_19.727273
+>NODE_72_length_98_cov_47.813953
+>NODE_73_length_95_cov_3382.725000
+>NODE_74_length_94_cov_20.102564
+>NODE_75_length_93_cov_4556.078947
+>NODE_76_length_89_cov_245.705882
+>NODE_77_length_89_cov_37.941176
+>NODE_78_length_89_cov_28.941176
+>NODE_79_length_89_cov_24.764706
+>NODE_80_length_89_cov_23.529412
+>NODE_81_length_88_cov_91.515152
+>NODE_82_length_82_cov_110.740741
+>NODE_83_length_82_cov_69.629630
+>NODE_84_length_82_cov_40.666667
+>NODE_85_length_82_cov_35.518519
+>NODE_86_length_81_cov_66.346154
+>NODE_87_length_81_cov_52.038462
+>NODE_88_length_80_cov_322.680000
+>NODE_89_length_80_cov_280.360000
+>NODE_90_length_80_cov_86.440000
+>NODE_91_length_80_cov_29.800000
+>NODE_92_length_77_cov_27.681818
+>NODE_93_length_73_cov_111.055556
+>NODE_94_length_73_cov_8.055556
+>NODE_95_length_72_cov_347.176471
+>NODE_96_length_72_cov_102.588235
+>NODE_97_length_72_cov_81.411765
+>NODE_98_length_70_cov_24.066667
+>NODE_99_length_68_cov_143.230769
+>NODE_100_length_68_cov_138.000000
+>NODE_101_length_66_cov_81.000000
+>NODE_102_length_60_cov_228.600000
+>NODE_103_length_60_cov_64.600000
+>NODE_104_length_60_cov_36.000000
+>NODE_105_length_60_cov_30.600000
+>NODE_106_length_60_cov_24.000000
+>NODE_107_length_60_cov_4.800000
+>NODE_108_length_59_cov_51.000000
+>NODE_109_length_58_cov_65.333333
+>NODE_110_length_57_cov_18.000000
+>NODE_111_length_56_cov_2363.000000
+>NODE_112_length_56_cov_189.000000
+>NODE_113_length_56_cov_160.000000
+>NODE_114_length_56_cov_104.000000
+

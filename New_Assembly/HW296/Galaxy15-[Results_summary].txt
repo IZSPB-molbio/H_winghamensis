@@ -1,0 +1,135 @@
+Filter SPAdes repeats Results Summary
+======================================
+
+Paramaters used:
+Length cutoff for calcularing average cutoff: 5000
+Coverage cutoff ratio: 0.33
+Repeat cutoff ratio: 1.75
+Length cutoff: 1000
+
+Calculations:
+Average coverage: 433.04631816
+Coverage cutoff: 142.9052849928
+Repeat cutoff: 757.83105678
+
+File headers:
+Filtered sequences (with repeats):
+>NODE_1_length_184253_cov_320.071461
+>NODE_2_length_140622_cov_427.552825
+>NODE_3_length_136010_cov_358.851613
+>NODE_4_length_123057_cov_406.646607
+>NODE_5_length_114471_cov_382.970074
+>NODE_6_length_110184_cov_375.834512
+>NODE_7_length_103777_cov_418.878425
+>NODE_8_length_92358_cov_386.487611
+>NODE_9_length_89119_cov_408.287097
+>NODE_10_length_73285_cov_414.632541
+>NODE_11_length_67401_cov_425.118641
+>NODE_12_length_64945_cov_380.077208
+>NODE_13_length_61719_cov_390.444457
+>NODE_14_length_51434_cov_349.936219
+>NODE_15_length_42681_cov_447.180641
+>NODE_16_length_35293_cov_358.589875
+>NODE_17_length_28633_cov_455.362167
+>NODE_18_length_24863_cov_414.484602
+>NODE_19_length_21696_cov_428.524236
+>NODE_20_length_20823_cov_352.690534
+>NODE_21_length_16067_cov_376.208094
+>NODE_22_length_13569_cov_355.635711
+>NODE_23_length_12826_cov_352.916373
+>NODE_24_length_11018_cov_306.406276
+>NODE_25_length_6401_cov_1532.370154(3 copies)
+>NODE_26_length_2397_cov_413.930401
+>NODE_27_length_2047_cov_1105.776606(2 copies)
+>NODE_28_length_1618_cov_379.170825
+>NODE_29_length_1457_cov_256.383024
+>NODE_30_length_1451_cov_469.544413
+>NODE_31_length_1249_cov_1673.229481(3 copies)
+>NODE_32_length_1000_cov_322.824339
+
+Filtered sequences (no repeats):
+>NODE_1_length_184253_cov_320.071461
+>NODE_2_length_140622_cov_427.552825
+>NODE_3_length_136010_cov_358.851613
+>NODE_4_length_123057_cov_406.646607
+>NODE_5_length_114471_cov_382.970074
+>NODE_6_length_110184_cov_375.834512
+>NODE_7_length_103777_cov_418.878425
+>NODE_8_length_92358_cov_386.487611
+>NODE_9_length_89119_cov_408.287097
+>NODE_10_length_73285_cov_414.632541
+>NODE_11_length_67401_cov_425.118641
+>NODE_12_length_64945_cov_380.077208
+>NODE_13_length_61719_cov_390.444457
+>NODE_14_length_51434_cov_349.936219
+>NODE_15_length_42681_cov_447.180641
+>NODE_16_length_35293_cov_358.589875
+>NODE_17_length_28633_cov_455.362167
+>NODE_18_length_24863_cov_414.484602
+>NODE_19_length_21696_cov_428.524236
+>NODE_20_length_20823_cov_352.690534
+>NODE_21_length_16067_cov_376.208094
+>NODE_22_length_13569_cov_355.635711
+>NODE_23_length_12826_cov_352.916373
+>NODE_24_length_11018_cov_306.406276
+>NODE_26_length_2397_cov_413.930401
+>NODE_28_length_1618_cov_379.170825
+>NODE_29_length_1457_cov_256.383024
+>NODE_30_length_1451_cov_469.544413
+>NODE_32_length_1000_cov_322.824339
+
+Repeat sequences:
+>NODE_25_length_6401_cov_1532.370154(3 copies)
+>NODE_27_length_2047_cov_1105.776606(2 copies)
+>NODE_31_length_1249_cov_1673.229481(3 copies)
+
+Discarded sequences:
+>NODE_33_length_936_cov_1236.818388
+>NODE_34_length_781_cov_253.213499
+>NODE_35_length_735_cov_2.413235
+>NODE_36_length_728_cov_2.099554
+>NODE_37_length_608_cov_2.837251
+>NODE_38_length_503_cov_560.915179
+>NODE_39_length_475_cov_1549.304762
+>NODE_40_length_349_cov_545.180272
+>NODE_41_length_310_cov_453.180392
+>NODE_42_length_280_cov_716.191111
+>NODE_43_length_270_cov_498.488372
+>NODE_44_length_270_cov_399.390698
+>NODE_45_length_253_cov_106.126263
+>NODE_46_length_211_cov_2.128205
+>NODE_47_length_182_cov_55.629921
+>NODE_48_length_174_cov_280.462185
+>NODE_49_length_139_cov_1010.071429
+>NODE_50_length_135_cov_343.425000
+>NODE_51_length_134_cov_107.291139
+>NODE_52_length_120_cov_421.907692
+>NODE_53_length_118_cov_62.809524
+>NODE_54_length_117_cov_324.193548
+>NODE_55_length_111_cov_735.428571
+>NODE_56_length_111_cov_81.357143
+>NODE_57_length_100_cov_54.933333
+>NODE_58_length_100_cov_51.244444
+>NODE_59_length_100_cov_31.577778
+>NODE_60_length_99_cov_37.636364
+>NODE_61_length_98_cov_30.860465
+>NODE_62_length_98_cov_28.279070
+>NODE_63_length_94_cov_57.230769
+>NODE_64_length_94_cov_22.076923
+>NODE_65_length_88_cov_519.121212
+>NODE_66_length_86_cov_173.806452
+>NODE_67_length_86_cov_163.387097
+>NODE_68_length_82_cov_113.407407
+>NODE_69_length_80_cov_210.160000
+>NODE_70_length_80_cov_92.600000
+>NODE_71_length_80_cov_40.440000
+>NODE_72_length_81_cov_32.280000
+>NODE_73_length_74_cov_21.947368
+>NODE_74_length_72_cov_192.882353
+>NODE_75_length_68_cov_1298.076923
+>NODE_76_length_67_cov_149.833333
+>NODE_77_length_61_cov_62.833333
+>NODE_78_length_56_cov_2231.000000
+>NODE_79_length_56_cov_168.000000
+>NODE_80_length_56_cov_82.000000
+

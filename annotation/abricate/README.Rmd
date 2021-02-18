@@ -1,0 +1,96 @@
+---
+title: "ABRicate analysis on Helicobacter strains"
+author: "Domenico Simone"
+date: "2/17/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(DT)
+
+dir.create("exports", showWarnings = FALSE)
+```
+
+## ABRicate runs
+
+Five assembled genomes were inspected with ABRicate (all available reference dbs) with the following parameters:
+
+- coverage >= 70%
+- identity >= 30%.
+
+```{bash, echo=FALSE, eval=FALSE}
+for genome in $(ls ../New_Assembly/*/*.fasta)
+do
+    echo $genome
+    genome_id=$(echo $(basename $genome) | sed 's/\.fasta//g')
+    for i in $(abricate --list | awk 'NR>1{print $1}')
+    do
+        echo $i
+        abricate \
+        --db $i \
+        --minid 30 \
+        --mincov 70 \
+        $genome  | sed 's/..\/New_Assembly\///g' | sed 's/\.fasta//g' > ${genome_id}_${i}.out
+    done
+done
+```
+
+Only VFDB returned results (27 hits/genome).
+
+### VFDB results {.tabset}
+
+```{r, echo=FALSE}
+vfdb.results.files <- list.files(pattern = "*vfdb.out") 
+
+vfdb.results <- do.call("rbind", lapply(vfdb.results.files, function(x) 
+           data.frame(read.table(x, header = FALSE, stringsAsFactors = FALSE, sep = "\t"))
+))
+
+colnames(vfdb.results) <- c("sample",
+                            "sequence",
+                            "start",
+                            "end",
+                            "strand",
+                            "gene",
+                            "coverage",
+                            "coverage_map",
+                            "gaps",
+                            "coverage_percent",
+                            "identity_percent",
+                            "database",
+                            "accession",
+                            "product",
+                            "resistance")
+```
+
+#### Distribution of coverage and identity
+
+```{r, echo=FALSE}
+vfdb.results %>%
+  ggplot(mapping = aes(x=coverage_percent, y=identity_percent)) +
+    geom_point(aes(color=sample)) +
+    geom_text(aes(label=gene), size=3, nudge_y = 0.3) #+
+    # facet_wrap(~sample)
+  
+```
+
+#### Table with ABRicate results
+
+Text version of this table is available [here](exports/abricate_vfdb.tsv)
+
+```{r, echo=FALSE}
+vfdb.results %>%
+  write.table(file = "exports/abricate_vfdb.tsv",
+              quote = FALSE,
+              row.names = FALSE,
+              sep = "\t")
+
+vfdb.results %>%
+  select(-coverage_map) %>%
+  select(-database) %>%
+  select(-product) %>%
+  select(-resistance) %>%
+  datatable(filter = list(position = 'top', clear = FALSE))
+```

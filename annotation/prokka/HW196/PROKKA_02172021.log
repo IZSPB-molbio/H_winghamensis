@@ -1,0 +1,26 @@
+[14:45:02] This is prokka 1.13
+[14:45:02] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[14:45:02] Homepage is https://github.com/tseemann/prokka
+[14:45:02] Local time is Wed Feb 17 14:45:02 2021
+[14:45:02] You are domenico
+[14:45:02] Operating system is linux
+[14:45:02] You have BioPerl 1.007002
+[14:45:02] System has 4 cores.
+[14:45:02] Will use maximum of 2 cores.
+[14:45:02] Annotating as >>> Bacteria <<<
+[14:45:02] Generating locus_tag from 'New_Assembly/HW196/HW196.fasta' contents.
+[14:45:02] Setting --locustag ENKEMMOI from MD5 e74e6682d47b2f6f5ee3fdb69802620b
+[14:45:02] Creating new output folder: annotation/prokka/HW196
+[14:45:02] Running: mkdir -p annotation\/prokka\/HW196
+[14:45:02] Using filename prefix: PROKKA_02172021.XXX
+[14:45:02] Setting HMMER_NCPU=1
+[14:45:02] Writing log to: annotation/prokka/HW196/PROKKA_02172021.log
+[14:45:02] Command: /home/domenico/anaconda3/envs/prokka/bin/prokka --cpus 2 --outdir annotation/prokka/HW196 New_Assembly/HW196/HW196.fasta
+[14:45:02] Appending to PATH: /home/domenico/anaconda3/envs/prokka/bin
+[14:45:02] Looking for 'aragorn' - found /home/domenico/anaconda3/envs/prokka/bin/aragorn
+[14:45:02] Determined aragorn version is 1.2
+[14:45:02] Looking for 'barrnap' - found /home/domenico/anaconda3/envs/prokka/bin/barrnap
+[14:45:02] Determined barrnap version is 0.9
+[14:45:02] Looking for 'blastp' - found /home/domenico/anaconda3/envs/prokka/bin/blastp
+[14:45:04] Determined blastp version is 2.10
+[14:45:04] Prokka needs blastp 2.2 or higher. Please upgrade and try again.
