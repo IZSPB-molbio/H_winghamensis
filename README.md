@@ -2,7 +2,7 @@
 
 ## Summary
 
-- [ABRicate results](annotation/abricate/README.html) 
+- [ABRicate results](annotation/abricate/README.html)
 
 ## ABRicate
 
