@@ -37,7 +37,7 @@ do
 done
 ```
 
-Only VFDB returned results (27 hits/genome).
+Only VFDB returned results (27 hits/genome). A scatterplot coverage vs. identity is reported in the next section [Distribution of coverage and identity]. All ABRicate results are reported as table in the section [Table with ABRicate results].
 
 ### VFDB results {.tabset}
 
@@ -71,10 +71,12 @@ colnames(vfdb.results) <- c("sample",
 vfdb.results %>%
   ggplot(mapping = aes(x=coverage_percent, y=identity_percent)) +
     geom_point(aes(color=sample)) +
-    geom_text(aes(label=gene), size=3, nudge_y = 0.3) #+
-    # facet_wrap(~sample)
+    geom_text(aes(label=gene), size=2, nudge_y = 0.5) +
+    facet_wrap(~sample)
   
 ```
+
+Quite all genes have the same coverage and identity % in all isolates. An exception is gene _fliS_ which has a slightly higher coverage % in isolates HW196 and HW228.
 
 #### Table with ABRicate results
 
